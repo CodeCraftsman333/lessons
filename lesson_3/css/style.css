@@ -1,0 +1,42 @@
+@import url("reset.css");
+
+.paragraf-content{
+	color: rgb(120, 106, 84);
+}
+.yellow{
+	color: yellow;
+}
+.blue{
+	color: blue;
+}
+.green{
+	color: green;
+}
+
+.paragraf-content > p{
+	color: red;
+}
+.paragraf-content #people{
+	color: blue;
+}
+#timezone{
+	color: blueviolet;
+}
+
+[class*="su"]{
+	color: chocolate;
+}
+
+
+.sub__second, .footer__text{
+	color: rgb(119, 255, 0);
+}
+.footer__info a{
+	color: blueviolet;
+}
+.footer__info p {
+	color: aquamarine;
+}
+.about__castle ~ p{
+ color: rgb(43, 148, 38);
+}
