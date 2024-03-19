@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Rubik+Beastly:regular);
+
+
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+.header{
+	font-family: "Rubik Gemstones", system-ui;
+    font-weight: 800;
+	text-transform: lowercase;
+    font-size: 48px;
+    line-height: 150%;
+    font-style: normal;
+	color: brown;
+	text-align: center;
+	text-decoration: underline;
+}
+.test__first {
+	font-family: "Anonymous Pro", monospace;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-shadow: -4px -2px 1px #efc006;
+	word-spacing: 20px;
+	font-style: italic;
+	text-align: justify;
+	text-decoration: wavy overline lime;
+}
+.test__second {
+	font-family: "Comforter Brush", cursive;
+	text-transform: capitalize;
+    color: #911b1b;
+    word-spacing: 10px;
+    text-align: right;
+    text-decoration: underline;
+	font-weight: 400;
+	font-style: normal;
+}
+.test__thirst {
+	font-family: "Rubik Beastly", system-ui;
+	font-weight: 300;
+	font-style: normal;
+	text-align: left;
+	text-decoration: line-through;
+	color: blue;
+	text-transform: none;
+}
+
+.blog__title {
+	font-weight: 600;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+}
+.blog{
+	font-family: "proximanova", sans-serif;
+    color: #2B2929;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+}
+
+.blog__sub-title {
+	font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.footer__text {
+	font-family: 'Unbounded';
+	font-weight: 600;
+    font-size: 40px;
+	text-shadow: 4px 2px 1px #bb2436;
+    line-height: 1.2;
+    text-align: justify;
+}
+
