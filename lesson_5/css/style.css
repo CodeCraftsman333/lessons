@@ -167,7 +167,7 @@
   
 
 .practice__test {
-	background-color: rgb(213, 57, 57);
+	background-color: rgb #EAC6B5;
 	max-width: max-content;
 	text-align: center;
 }
@@ -186,12 +186,12 @@
 	display: inline-block;
 	width: 400px;
 	height: 100px;
-	background-color: rgb(0, 255, 94);
+	background-color: rgb #EAC6B5;
 	margin: 50px;
 	vertical-align: top;
 }
 .test__block p {
-	color: rgb(98, 0, 255);
+	color: rgb #F3F2E5;
 	font-size: 40px;
 }
 .block-1 {
