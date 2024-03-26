@@ -1,0 +1,275 @@
+
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+.header{
+	font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    font-style: normal;
+	color: brown;
+	
+}
+.header__title {
+	font-weight: 800;
+	font-size: 50px;
+	font-style: italic;
+	color: rgb(53, 62, 60);
+	text-transform: uppercase;
+	text-decoration: underline rgba(103, 108, 75, 0.773);
+	text-align: center;
+	margin: 30px 0px;
+	text-shadow: 5px -5px 20px rgba(176, 12, 12, 0.7);
+	letter-spacing: 5px;
+}
+.header__link {
+	font-size: 25px;
+	font-weight: 400;
+	font-style: italic;
+	color: rgb(44, 66, 30);
+	text-align: center;
+	line-height: 2.0;
+	text-transform: uppercase;
+}
+.header__link a {
+	text-decoration: underline dotted rgb(27, 19, 22);
+	text-shadow: 5px 5px 5px rgba(48, 143, 43, 0.7);
+}
+.header__menu {
+	margin-bottom: 50px;
+}
+.page__living-room {
+	font-family: "Proxima Nova", sans-serif;
+	color: #2b2929;
+	background-color: rgb(248, 248, 248);
+  }
+  .living-room__wrapper {
+	max-width: 1070px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 60px;
+  }
+  .living-room__title {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 1.2;
+	margin-bottom: 40px;
+  }
+  .living-room__image {
+	margin-bottom: 40px;
+  }
+  .living-room__text {
+	font-weight: 400;
+	line-height: 1.87;
+	margin-bottom: 40px;
+  }
+  .living-room__text p {
+	padding-bottom: 24px;
+  }
+  .living-room__text p:last-child {
+	padding-bottom: 0px;
+  }
+  .living-room__subtitle {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.4;
+	margin-bottom: 30px;
+  }
+  .living-room__list {
+	font-weight: 400;
+	line-height: 1.87;
+	margin-bottom: 40px;
+  }
+  .living-room__list li {
+	padding: 0px 0px 20px 47px;
+  }
+  .living-room__list li:last-child {
+	padding-bottom: 0px;
+  }
+  
+  /**********************************/
+  
+  .page__krovato {
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 600;
+	background: rgb(238, 235, 235);
+  }
+  .krovato__wrapper {
+	max-width: 1290px;
+	margin: 0 auto;
+	overflow: hidden;
+  }
+  .krovato__title {
+	font-size: 40px;
+	line-height: 1.2;
+	text-align: center;
+	margin-bottom: 40px;
+  }
+  .krovato__items {
+	margin: 0px -15px;
+	margin-bottom: 60px;
+  }
+  .krovato__item {
+	width: 322.5px;
+	display: inline-block;
+	padding: 0px 15px;
+	vertical-align: top;
+  }
+  .item__image {
+	padding: 0px 65px;
+	margin-bottom: 20px;
+  }
+  .item__title {
+	font-size: 26px;
+	line-height: 1.31;
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  .item__text {
+	font-weight: 400;
+	line-height: 1.87;
+	text-align: center;
+  }
+  
+  /**********************************/
+  
+  .page__follow {
+	background: rgba(30, 40, 50, 0.05);
+  }
+  .follow__wrapper {
+	max-width: 1344px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 100px 0px;
+  }
+  .follow__title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 50px;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 60px;
+  }
+  .follow__items {
+	margin: 0px -12px;
+  }
+  .follow__item {
+	display: inline-block;
+	padding: 0px 12px;
+  }
+  
+
+.practice__test {
+	background-color: rgb(213, 57, 57);
+	max-width: max-content;
+	text-align: center;
+}
+.test__title {
+	color: rgb(18, 18, 5);
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.2;
+	text-shadow: 5px -5px 5px rgba(103, 21, 21, 0.7);
+}
+
+.test__block {
+	display: inline-block;
+	width: 400px;
+	height: 100px;
+	background-color: rgb(0, 255, 94);
+	margin: 50px;
+	vertical-align: top;
+}
+.test__block p {
+	color: rgb(98, 0, 255);
+	font-size: 40px;
+}
+.block-1 {
+	overflow: auto;
+}
+.block-2 {
+	overflow: hidden;
+}
+.block-3 {
+	overflow: scroll;
+}
+.block-4 {
+	overflow: clip;
+}
+.block-5 {
+	overflow: visible;
+}
+
+.page__test-2 {
+	margin-top: 100px;
+	background-color: rgb(164, 28, 28);
+	text-align: center;
+	
+}
+.block-6 {
+	padding-top: 40px;
+	display: inline-block;
+	width: 130px;
+	height: 80px;
+	vertical-align: bottom;
+}
+.block-7 {
+	display: inline-block;
+	padding-top: 120px;
+	width: 250px;
+	height: 450px;
+	vertical-align: middle;
+	
+}
+.block-8 {
+	display: inline-block;
+	width: 120px;
+	height: 150px;
+	vertical-align: top;
+}
+
+.blog {
+	width: 1070px;
+	height: 1544;
+	margin-left: 320px;
+	
+}
+   
+.blog__title {
+	font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    text-align: inherit;
+}
+.living__room {
+	max-width: 1070px;
+    margin: 0 auto;
+    overflow: hidden;
+	padding-bottom: 40px;
+}
+
+.blog__sub-title {
+	font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+
+.footer{
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+    font-size: 20px;
+	line-height: 1.5;
+	text-shadow: 5px -5px 5px rgba(20, 18, 18, 0.7);
+	background-color: rgb(96, 31, 187);
+}
