@@ -160,6 +160,8 @@
   .follow__item {
 	display: inline-block;
 	padding: 0px 12px;
+	margin-bottom: 24px;
+    	width: calc((1320px + 12px* 2) / 6);
   }
   
 
