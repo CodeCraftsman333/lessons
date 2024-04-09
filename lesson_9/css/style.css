@@ -1,0 +1,26 @@
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+.wrapper {
+	background-color: rgb(102, 102, 112);
+}
+
+.header {
+	background-color: rgb(205, 205, 214);
+}
+
+.page {
+	max-width: 100%;
+	background-color: rgb(205, 205, 214);
+}
+
+.menu__item{
+	margin-bottom: 10px;
+}
+img {
+	background-color: #bebbbb;
+	border-radius: 25px;
+}
