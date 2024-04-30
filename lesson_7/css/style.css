@@ -1,0 +1,453 @@
+/* Локальне підключення шрифтів */
+/* @import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Exo:700&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+body {
+	margin: 0 20px;
+	font-family: "Quicksand", sans-serif;
+	/* background-color: #333; */
+	color: #fff;
+}
+.page {
+	/* margin:  0 20px; */
+}
+.training {
+	padding: 20px;
+	max-width: 1250px;
+}
+.title-2 {
+	font-size: 48px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+/* About me */
+.presentation {
+	padding: 0 20px;
+	background-color: #130000;
+}
+.wrap-2 {
+	max-width: 1150px;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 90px;
+	padding-bottom: 110px;
+}
+
+
+.txt-2 {
+	font-family: "Exo", sans-serif;
+	max-width: 992px;
+	text-align: center;
+	margin: 0 auto 60px;
+}
+
+.subtitle-2 {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 1.16666667; /* 70/60 */
+	text-align: center;
+	margin-bottom: 30px;
+	
+}
+.subtitle-2::after {
+	content: "";
+	min-width: 100%;
+	/* margin: 35px auto; */
+	margin: 25px -30px 0;
+	height: 1px;
+	display: block;
+	background: linear-gradient(90deg, rgba(246,12,0,1) 33%, rgba(61,205,50,1) 66%, rgba(37,18,235,1) 100%);
+
+}
+.welcome {
+	font-size: 18px;
+	line-height: 2.22222222; /* 40/18 */
+	font-weight: 400;
+	text-transform: capitalize;
+	letter-spacing: -1px;
+	text-align: center;
+}
+
+.services {
+	font-family: "Orbitron",sans-serif;
+	font-weight: 500;
+	margin-bottom: 80px;
+}
+
+.list-2 {
+	font-size: 20px;
+	line-height: 1.25; /* 25/20 */
+	text-transform: capitalize;
+}
+.list-2 li {
+	display: inline-block;
+
+}
+.list-2 li::after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, rgba(246,12,0,1) 33%, rgba(61,205,50,1) 66%, rgba(37,18,235,1) 100%);
+	margin-left: 55px;
+}
+.list-2 li:not(:last-child) {
+	margin-right: 60px;
+}
+/*  Contacts */
+.contacts {
+	font-family: "Exo", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: -1px;
+	line-height: 1.2;
+}
+
+.details li {
+	display: inline-block;
+	/* padding-left: 30px; */
+	min-height: 20px;
+	
+}
+.details li:not(:last-child) {
+	margin-right: 85px;
+}
+
+
+.details .one::before {
+	background: url(../img/call.png) 0 2px no-repeat;
+	content: "";
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+}
+
+.details .two::before {
+	background: url(../img/point.png) 0 0 no-repeat;
+	content: "";
+	width: 17px;
+	height: 17px;
+	margin-right: 20px;
+} 
+
+.details .three::before {
+	background: url(../img/mail.png) 0 4px no-repeat;
+	content: "";
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+} 
+/* Меблі */
+.three-1 {
+	background-color: #f8f8f8;
+	padding-bottom: 60px;
+}
+
+.block-block {
+	max-width: 1070px;
+	margin: 0 auto;
+	color: #2b2929;
+	padding-top: 20px;
+}
+
+.subtitle-3 {
+	font-size: 40px;
+	margin-bottom: 40px;
+	line-height: 1.20; /* 48/40 */
+}
+
+.photo-3 {
+	max-width: 1070px;
+	margin-bottom: 40px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.section-3 {
+	line-height: 1.875; /* 30/16 */
+	margin-bottom: 40px;
+}
+.subtitle-4 {
+	font-size: 20px;
+	line-height: 1.40; /* 28/20 */
+	margin-bottom: 30px;
+}
+
+.list-3 {
+	line-height: 1.875; /* 30/16 */
+	margin-bottom: 40px;
+}
+.list-3 li {
+	background: url("../img/icon.svg") no-repeat;
+	padding-left: 40px;
+}
+.list-3 li:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+
+.bottom {
+	line-height: 1.875;
+}
+
+.game-section{
+	margin: 0 20px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: rgb(73, 70, 70);
+	border: 5px solid color(srgb-linear red green blue);
+	border-radius: 20px;
+ }
+ .game-container{
+	max-width: 1100px;
+	padding: 0 15px;
+	margin: 0 auto;
+ }
+ 
+.game-wrap{
+ 	text-align: center;
+ 
+}
+.game-wrap h2{
+	font-weight: 600;
+ 	text-shadow: 2px -2px 5px #c11f1f, 4px -2px 10px rgb(22, 129, 153);
+	text-decoration: overline;
+}
+ 
+.game-container ul{
+	display: inline-block;
+}
+.step-1{
+	width: 30px;
+	height: 100px;
+	background-color: rgb(51, 255, 0);
+
+}
+.step-2 {
+	width: 800px;
+	height: 30px;
+	background-color: rgb(0, 255, 68);
+	visibility: hidden;
+
+} 
+
+.step-1:hover  + .step-2,
+.step-2:hover {
+	visibility: visible;
+}
+
+.step-3 {
+	width: 30px;
+	height: 100px;
+	background-color: rgb(173, 173, 151);
+	margin-left: 770px;
+	visibility: hidden;
+}
+
+.step-2:hover + .step-3,
+.step-3:hover {
+	visibility: visible;
+}
+.step-4 {
+	width: 800px;
+	height: 30px;
+	background-color: rgb(0, 255, 187);
+	visibility: hidden;
+	
+}
+.step-3:hover+.step-4,
+.step-4:hover {
+	visibility: visible;
+}
+
+.step-5 {
+	width: 20px;
+	height: 100px;
+	background-color: rgb(147, 183, 16);
+	visibility: hidden;
+}
+
+.step-4:hover + .step-5,
+.step-5:hover {
+	visibility: visible;
+
+}
+
+.step-6 {
+	width: 900px;
+	height: 20px;
+	background-color: #c0c021;
+	visibility: hidden;
+
+}
+.step-5:hover + .step-6,
+.step-6:hover {
+	visibility: visible;
+}
+.step-7 {
+	width: 20px;
+	height: 40px;
+	/* background: url(./img/free-icon.png); */
+	background-color: rgb(184, 33, 190);
+	visibility: hidden;
+	margin-left: 880px;
+}
+.step-7::after{
+	content: "Ти пройшов квест!!!";
+	/* background-image: url(../img/free-icon.png); */
+	margin-left: -200px;
+	margin-top: 80px;
+}
+.step-6:hover + .step-7,
+.step-7:hover {
+	visibility: visible;
+}
+/* ================================= */
+.practice {
+	/* text-transform: uppercase; */
+	text-align: center;
+	/* font-size: 20px; */
+	margin: 20px 20px;
+	font-family: "Roboto", sans-serif;
+	border: 5px solid;
+	border-radius: 20px;
+	padding: 50px 20px 50px 40px;
+	background-color: #e8e8e8;
+	color: #2e2424;
+}
+.practice__container {
+
+	margin: 0 auto;
+	max-width: 1320px;
+}
+.practice__button {
+	/* text-align: center; */
+	padding: 20px 40px;
+	margin: 20px;
+	background-color: #311bbf;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 1.5;
+}
+.practice__button span {
+	display: inline-block;
+	background: url("../img/favourite.svg") 0 50% no-repeat;
+	padding-left: 40px;
+}
+.practice__button:hover {
+	background-color: #07284f;
+	text-decoration: underline;
+}
+.practice__button:hover span {
+	background-position: 5px 50%;
+}
+.practice__button:active {
+	background-color: #16073d;
+}
+.practice__button:visited {
+	background-color: #37929c;
+}
+.practice__button:focus-visible {
+	outline: 2px solid #f4eaea;
+}
+.practice__text {
+	display: none;
+	padding: 20px 0;
+}
+.practice__text p {
+	font-size: 18px;
+	line-height: 1.3;
+}
+.practice__text p::before {
+	content: "";
+	vertical-align: middle;
+	background: url("../img/li.svg") 0 0 / 100% no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.practice__text p:hover::before {
+	opacity: 0.5;
+}
+.practice__text p:not(:last-child) {
+	margin-bottom: 10px;
+}
+.practice__text span {
+	display: block;
+	margin-bottom: 10px;
+}
+.practice__text span:not(:last-child) {
+	margin-bottom: 10px;
+}
+.practice__text:target {
+	display: block;
+}
+.practice__text *:first-child {
+	background-color: #9619aa;
+}
+.practice__text p:first-of-type {
+	background-color: #689af0;
+}
+.practice__text p:last-of-type {
+	text-transform: uppercase;
+}
+.practice__list {
+	padding: 20px 0;
+}
+.practice__list li {
+	list-style: decimal;
+}
+.practice__list li:not(:last-child) {
+	margin-bottom: 10px;
+}
+.practice__list li:nth-child(odd) {
+	background-color: #c942b2de;
+}
+.practice__list li:nth-child(even) {
+	border: 1px solid;
+	border-radius: 5px;
+	background-color: #42b9c9de;
+}
+.practice__list li:first-child {
+	background-color: #1b2c9fde;
+}
+.practice__list li:last-child {
+	border: 1px dashed;
+	border-color: #121515de;
+	background-color: #16a575ac;
+}
+.practice__list li:nth-child(2) {
+	background-color: #78c942de;
+}
+.practice__list li:nth-child(3n) {
+	background-color: #0d2225de;
+}
+.practice__list:has( li) {
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+}
+/* ================================= */
+
+.footer{
+	margin: 20px;
+}
+.im__footer {
+	background-image: linear-gradient(to left, rgb(225, 212, 212), rgb(0, 26, 255),rgb(183, 217, 183)  );
+	border: 2px solid #666;
+	border-radius: 20px 15px;
+	box-shadow: .125rem -0.5rem #6b3636;
+    padding: 10px;
+	font-size: 28px;
+	line-height: 1.17;
+    text-transform: uppercase;
+    text-align: center;
+}
