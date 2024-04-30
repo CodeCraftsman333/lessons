@@ -202,7 +202,7 @@ body {
 	padding-top: 70px;
 	padding-bottom: 70px;
 	background-color: rgb(73, 70, 70);
-	border: 5px solid color(srgb-linear red green blue);
+/* 	border: 5px solid color(srgb-linear red green blue); */
 	border-radius: 20px;
  }
  .game-container{
